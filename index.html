@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artshot Designer | Fotografia & Edição de Vídeos</title>
+    <meta
+      name="description"
+      content="Artshot é uma empresa de designer gráfico"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="./styles/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./styles/mobile.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-pen-nib"></i>Art</span>Shot
+      </h1>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">Um Detalhe de Cada Vez</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit commodi
+          a corporis qui voluptate. Ratione aut, veniam odit mollitia doloribus,
+          natus qui saepe cupiditate officiis, ex ipsa totam culpa tenetur.
+        </p>
+        <a href="#services" class="btn">Saber Mais</a>
+      </div>
+    </header>
+
+    <!-- Secção - O que nós fazemos -->
+    <section id="services" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">O Que</span> Nós Fazemos
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-pen-nib fa-2x"></i>
+            <div>
+              <h3>Design</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita, nulla!
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-camera fa-2x"></i>
+            <div>
+              <h3>Fotógrafias e Filmagem</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita, nulla!
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-pen fa-2x"></i>
+            <div>
+              <h3>Edição de Videos</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita, nulla!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção: Quem somos nós -->
+    <section id="about">
+      <div class="about-img"></div>
+
+      <div class="about-text bg-dark p-2">
+        <h2 class="m-heading">
+          <span class="text-primary">Quem</span> Somos Nós
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          itaque qui velit laudantium, cumque obcaecati tempore veritatis quae
+          molestiae doloribus magni, nemo odit sunt harum optio. Iste nobis
+          iusto numquam.
+        </p>
+        <h3>Nossa Equipa</h3>
+        <ul class="list">
+          <li>Ussene Matato: CEO</li>
+          <li>Yolanda Carlos: CFO</li>
+          <li>Valdemar Gildo: Designer Líder</li>
+          <li>Amâncio Muchave: Gerente de Fotógrafias</li>
+          <li>Joaquim Sitoe: Gestor de Editores de Vídeo</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Secção: Clientes -->
+    <section id="clients" class="p-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Nossos</span> Clientes
+        </h2>
+        <div class="items p-1">
+          <div><img src="./images/uanela-u-logo.png" alt="Client" /></div>
+          <div><img src="./images/fwpm-logo.png" alt="Client" /></div>
+          <div><img src="./images/adidas-logo.png" alt="Client" /></div>
+          <div><img src="./images/amazon-logo.png" alt="Client" /></div>
+          <div><img src="./images/nike-logo.png" alt="Client" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção: Contacto e Localização -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Conctate-nos</h2>
+        <p>Por favor use o formulário abaixo para poder nos contactar</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite o seu nome"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite o seu email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Número de Telefone</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Digite o seu telefone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Digite a sua mensagem"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark text-center">Enviar</button>
+        </form>
+      </div>
+      <div class="map">
+        <div class="gmap_canvas">
+          <iframe
+            class="gmap_iframe"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Cidade de Maputo&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe
+          ><a href="https://connectionsgame.org/">Connections NYT</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>
+          Copyright &copy; 2024, ArtShot Designer, Todos Direitos Reservados
+        </p>
+      </div>
+    </footer>
+
+    <!-- API para o fontawsome (colocado para leitura dos conteudos da pagina em primiero) -->
+    <script
+      src="https://kit.fontawesome.com/76124fbea8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
